@@ -3,6 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Controle_Jogador : MonoBehaviour{
+        
+        /*
+        Neste arquivo, responsável pelo controle do
+        personagem, criamos novas funcionalidades 
+        como: bloquear a movimentação do personagem
+        por completo. Para isso cramos o método 
+        BloquearControles e a varíavel estaVivo.
+        Para mais detalhes,veja Detect_Acidente2.cs
+        */
         [SerializeField] float tantoDeTorque=8f;
         [SerializeField] float salto =400f;
 
