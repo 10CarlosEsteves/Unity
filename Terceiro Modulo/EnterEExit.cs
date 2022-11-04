@@ -4,7 +4,19 @@ using UnityEngine;
 
 public class EnterEExit : MonoBehaviour
 {
-   //Destinada a onCollisionEnter e OncollisionExit
+
+   /*
+   Destinada a onCollisionEnter e OncollisionExit
+   Se um objeto estiver tocando em outr, então
+   estamos diante de uma collisionEnter, quando
+   ele não estiver tocando estamos diante de um
+   collisionExit...Espero que tenha ficado claro.
+   Aqui se dedica a criar mecanicas, bem como se
+   o jogador estiver tocando o chão temos efeito
+   de spray, caso não estiver tocando o chão, não
+   temos o efeito, bem como criamos aqui o efeito
+   de somente um salto.
+   */
    Controle_Jogador jogador;
    [SerializeField] ParticleSystem efeitoDeslizar;
 
